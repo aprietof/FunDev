@@ -1,0 +1,402 @@
+/* colors
+ white:      #FFFFFF
+ cyan:       #02B8E8
+ navy:       #006E8E
+ green:      #5fd481
+ orange:     #fc6300
+ gray:       #9B9B9B
+ babyblue:   #02B8E8
+ black:      #000000
+ light gray: #ccc
+
+ -------------------------
+ * Author: Adrian Prieto *
+ * Year: 2016            *
+ * www.adrianprieto.com  *
+ -------------------------
+*/
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+   box-sizing: border-box;
+}
+
+/* FONTS */
+
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+/* MAIN PAGE */
+
+body {
+  font-family: 'Lato', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #FFFFFF;
+  border: 1px solid transparent;
+}
+
+a {
+  text-decoration: none;
+  color: #006E8E;
+}
+
+h3 {
+  font-weight: 500;
+  font-size: 16px;
+  margin-top: 12px;
+}
+
+/* NAV */
+
+nav {
+  height: 90px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #006E8E;
+  padding: 10px;
+}
+
+.logo {
+  float: left;
+  padding: 15px 30px 0 30px;
+}
+
+
+.nav-links {
+  float: right;
+  padding-top: 30px;
+  padding-right: 60px;
+}
+
+/* TOP PAGE */
+
+.description {
+  height: 460px;
+  background-color: #02B8E8;
+}
+
+.title {
+  padding-top: 150px;
+}
+
+.title h2{
+  font-size: 30px;
+  text-align: center;
+  font-weight: 500;
+}
+
+/* MID PAGE */
+
+.icons {
+  height: 170px;
+  background-color: #FFFFFF;
+}
+
+.icon-container {
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.icon {
+  width: 33.3333333333%;
+  float: left;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.icon-middle {
+  border-left: 2px solid #9B9B9B;
+  border-right: 2px solid #9B9B9B;
+}
+
+.icon img {
+  min-height: 54px;
+}
+
+/* Sections */
+
+.section {
+  min-height: 640px;
+  text-align: center;
+  padding-bottom: 70px;
+  padding-top: 150px;
+}
+
+.section h3 {
+  display: block;
+  font-size: 24px;
+  color: #FFFFFF;
+}
+
+.info {
+  float: left;
+  width: 50%;
+}
+
+.info-text {
+  width: 300px;
+  margin: 0 auto;
+}
+
+.image {
+  padding-top: 30px;
+  float: right;
+  width: 50%;
+}
+
+.contact-button {
+  width: 300px;
+  background: #fc6300;
+  color: #fff;
+  line-height: 36px;
+  border-radius: 5px !important;
+  max-width: 100% /*transition: all 2s;*/;
+  font-size: 17px;
+  font-weight: 400;
+  margin-top: 35px;
+  border: 1px solid transparent;
+  cursor: pointer;
+}
+
+/* for companiers */
+
+.section.for-companies {
+  background: #5fd481;
+}
+
+/* For Seasoned Pros */
+
+.section.for-pros {
+  background: #02B8E8;
+}
+
+/* For Job Seekers */
+
+.section.for-seekers {
+  background: #5fd481;
+}
+
+
+/* Contact Us */
+
+.section.contact {
+  background: #FFFFFF;
+  padding-bottom: 70px;
+  padding-top: 50px;
+}
+
+.section.contact h3 {
+  color: #006E8E;
+}
+
+.section.contact h2 {
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.contact img {
+  background: #fff;
+  opacity: 0.2;
+  border: 1px solid #FF4900;
+  border-radius: 5px;
+  padding: 8px;
+  height: 106px;
+  padding: 25px;
+  cursor: pointer;
+  box-shadow: 1px 2px 5px #ccc;
+}
+
+.contact img.selected {
+  opacity: 1;
+}
+
+.contact-icons {
+  margin-left: 20%;
+  padding-right: 20%;
+  min-height: 30%;
+}
+
+.caption {
+  display: block;
+  margin-top: 8px;
+  font-size: 15px;
+}
+
+.form {
+  width: 60%;
+  margin-left: 20%;
+  margin-right: 20%;
+  min-height: 100px;
+}
+
+.contact-form {
+  width: 100%;
+  text-align: left;
+}
+
+.form-button button {
+  margin-left: 25%;
+  margin-right: 25%;
+  width: 50%;
+  background: #02B8E8;
+  margin-top: 50px;
+  max-width: 100%;
+  color: #fff;
+  line-height: 36px;
+  padding: 6px 12px;
+}
+
+input.textfield {
+  font-size: 15px;
+  border-radius: 5px;
+  outline: none;
+  background: #fff;
+  width: 100%;
+  height: 40px;
+  border: 1px solid #ccc;
+}
+
+label.lbl {
+  margin-top: 15px;
+  font-size: 15px;
+}
+
+/* FOOTER */
+
+footer {
+  min-height: 190px;
+  background-color: #fc6300;
+}
+
+.footer-col {
+  float: right;
+  width: 33.33333333%;
+}
+
+.footer-col {
+  padding: 50px 30px 0 30px;
+}
+
+.footer-col p {
+  text-align: center;
+  color: #FFFFFF;
+  line-height: 1.42857143;
+}
+
+.footer-col li {
+  list-style-type: none;
+}
+
+.footer-col a {
+  color: #000000;
+}
+
+
+/* MEDIA QUERIES */
+
+/* Medium Screen */
+@media screen and (max-width: 768px) {
+
+  /* For Companies */
+
+  .info {
+    float: none;
+    margin: 0 auto;
+  }
+
+  .info-text {
+    width: 100%;
+  }
+
+  .image {
+    display: none;
+  }
+
+  /* CONTACT */
+
+  .contact-icons {
+    margin-left: 10%;
+    padding-right: 10%;
+  }
+
+  /* FOOTER */
+
+  .footer-col {
+    text-align: center;
+    float: none;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  .footer-col.list {
+    padding-right: 80px;
+  }
+
+}
+
+/* Portrait Phone and Landscape */
+@media screen and (max-width: 540px) {
+
+  /* nav */
+
+  nav {
+    height: 150px;
+  }
+
+  .logo {
+    float: none;
+  }
+
+  .logo p {
+    text-align: center;
+  }
+
+  .nav-links {
+    float: none;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .title h2 {
+    font-size: 28px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  /* icons */
+
+  .icon-container {
+    padding: 0;
+  }
+
+  .icon h3 {
+    font-size: 13px;
+  }
+
+  /* For Companies */
+
+  .info {
+    width: 70%;
+  }
+
+
+  /* Contact Us */
+
+  .contact img {
+    height: 50px;
+    padding: 10px;
+  }
+
+  .caption {
+    font-size: 13px;
+  }
+
+
+}
