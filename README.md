@@ -5,18 +5,10 @@ Landing page with dynamic content and smooth scrolling. Built with HTML5, CSS3, 
 ##Directory structure
 
 ```
-├── funnel.html
+├── index.html
 ├── css
 │   └── style.css
 ├── img
-│   ├── clock-icon.png
-│   ├── company-icon.png
-│   ├── company-icon2.png
-│   ├── funnel-favicon.png
-│   ├── funnel-logo.png
-│   ├── inter-icon.png
-│   ├── jobseeker-icon.png
-│   └── pros-icon.png
 └── js
     └── script.js
 ```
