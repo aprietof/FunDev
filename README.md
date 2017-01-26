@@ -1,4 +1,4 @@
-#Funnel
+#FunDev
 
 Landing page with dynamic content and smooth scrolling. Built with HTML5, CSS3, Javascript and jQuery 3.1.
 
