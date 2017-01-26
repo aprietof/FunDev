@@ -13,12 +13,12 @@ Landing page with dynamic content and smooth scrolling. Built with HTML5, CSS3, 
     └── script.js
 ```
 
-[Demo](http://www.adrianprieto.com/funnel/funnel.html)
+[Demo](http://www.adrianprieto.com/fundev/index.html)
 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/aprietof/funnel. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
+Bug reports and pull requests are welcome on GitHub at https://github.com/aprietof/fundev. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
 
 
 ## License
