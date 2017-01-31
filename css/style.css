@@ -400,3 +400,42 @@ footer {
 
 
 }
+
+/* Portrait Phone 5s and Landscape */
+@media screen and (max-width: 320px) {
+
+  nav {
+    height: auto;
+  }
+
+  nav p {
+    margin: 10px 0 0 0;
+  }
+
+  nav a {
+    font-size: small;
+  }
+
+  .section {
+    min-height: 580px;
+    padding-top: 90px;
+  }
+
+  .section p {
+    font-weight: 100;
+  }
+
+  .title h2 {
+    font-size: x-large;
+  }
+
+  .icon img {
+    max-height: 40px;
+    min-height: 0;
+  }
+
+  .icon a {
+    font-size: smaller;
+  }
+
+}
