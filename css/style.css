@@ -22,10 +22,6 @@
    box-sizing: border-box;
 }
 
-/* FONTS */
-
-@import url('https://fonts.googleapis.com/css?family=Lato');
-
 /* MAIN PAGE */
 
 body {
@@ -164,7 +160,7 @@ nav a {
   cursor: pointer;
 }
 
-/* for companiers */
+/* for companies */
 
 .section.for-companies {
   background: #5fd481;
